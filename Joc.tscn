@@ -21,7 +21,7 @@ position = Vector2( 625, 2137 )
 scale = Vector2( 4, 1 )
 
 [node name="Paret26" parent="." instance=ExtResource( 2 )]
-position = Vector2( 4323, 687 )
+position = Vector2( 4479, 683 )
 scale = Vector2( 4, 1 )
 
 [node name="Paret27" parent="." instance=ExtResource( 2 )]

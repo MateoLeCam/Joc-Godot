@@ -10,7 +10,7 @@ extends StaticBody2D
 func _ready():
 	pass # Replace with function body.
 func _process(delta):
-	rotation_degrees+=-2 
+	rotation_degrees+=-1
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

@@ -1,15 +1,16 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://fletxa cap abaix.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Paret.tscn" type="PackedScene" id=2]
 [ext_resource path="res://personatge.tscn" type="PackedScene" id=3]
 [ext_resource path="res://paretrotatòria.tscn" type="PackedScene" id=4]
+[ext_resource path="res://escalainvisible.tscn" type="PackedScene" id=5]
 
 [node name="Joc" type="Node2D"]
 position = Vector2( 6, 19 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 3 )]
-position = Vector2( 6226, 475 )
+position = Vector2( 505, 272 )
 
 [node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
 position = Vector2( 5531, 682 )
@@ -20,7 +21,11 @@ position = Vector2( 625, 2137 )
 scale = Vector2( 4, 1 )
 
 [node name="Paret26" parent="." instance=ExtResource( 2 )]
-position = Vector2( 4291, 687 )
+position = Vector2( 4323, 687 )
+scale = Vector2( 4, 1 )
+
+[node name="Paret27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2258, 687 )
 scale = Vector2( 4, 1 )
 
 [node name="Paret14" parent="." instance=ExtResource( 2 )]
@@ -131,3 +136,21 @@ scale = Vector2( 0.1025, 0.150312 )
 [node name="Sprite2" parent="." instance=ExtResource( 1 )]
 position = Vector2( 4750, 1971 )
 scale = Vector2( 0.111718, 0.160312 )
+
+[node name="CollisionShape2D" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3862, 670 )
+
+[node name="CollisionShape2D2" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3716, 638 )
+
+[node name="CollisionShape2D3" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3576, 591 )
+
+[node name="CollisionShape2D4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3386, 561 )
+
+[node name="CollisionShape2D5" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3184, 526 )
+
+[node name="CollisionShape2D6" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3009, 485 )

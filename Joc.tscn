@@ -1,0 +1,133 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://fletxa cap abaix.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Paret.tscn" type="PackedScene" id=2]
+[ext_resource path="res://personatge.tscn" type="PackedScene" id=3]
+[ext_resource path="res://paretrotatòria.tscn" type="PackedScene" id=4]
+
+[node name="Joc" type="Node2D"]
+position = Vector2( 6, 19 )
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 3 )]
+position = Vector2( 6226, 475 )
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 4 )]
+position = Vector2( 5531, 682 )
+scale = Vector2( 6, 4 )
+
+[node name="Paret" parent="." instance=ExtResource( 2 )]
+position = Vector2( 625, 2137 )
+scale = Vector2( 4, 1 )
+
+[node name="Paret26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4291, 687 )
+scale = Vector2( 4, 1 )
+
+[node name="Paret14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6269, 2014 )
+rotation = 1.5708
+scale = Vector2( 7, 1 )
+
+[node name="Paret11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6, 1935 )
+rotation = 1.5708
+scale = Vector2( 1.5, 1 )
+
+[node name="Paret3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2002, 2130 )
+
+[node name="Paret5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3196, 2327 )
+
+[node name="Paret10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4441, 1883 )
+
+[node name="Paret13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 5506, 3043 )
+
+[node name="Paret15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6104, 3042 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6105, 2808 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6105, 2578 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6106, 2350 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6106, 2131 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6104, 1920 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6104, 1700 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6106, 1484 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6104, 1275 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6107, 1059 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 6268, 914 )
+scale = Vector2( 1.2, 1 )
+
+[node name="Paret2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1526, 2211 )
+rotation = 1.5708
+scale = Vector2( 0.5, 1 )
+
+[node name="Paret6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3545, 2351 )
+rotation = 1.5708
+scale = Vector2( 0.5, 1 )
+
+[node name="Paret7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3717, 2218 )
+rotation = 1.5708
+scale = Vector2( 0.5, 1 )
+
+[node name="Paret8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 3901, 2109 )
+rotation = 1.5708
+scale = Vector2( 0.5, 1 )
+
+[node name="Paret9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4104, 1982 )
+rotation = 1.5708
+scale = Vector2( 0.5, 1 )
+
+[node name="Paret4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 2588, 2271 )
+rotation = 2.61799
+scale = Vector2( 2, 1 )
+
+[node name="Paret12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 4874, 2667 )
+rotation = 0.523599
+scale = Vector2( 2, 1 )
+
+[node name="Sprite" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4746, 1698 )
+scale = Vector2( 0.1025, 0.150312 )
+
+[node name="Sprite2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 4750, 1971 )
+scale = Vector2( 0.111718, 0.160312 )

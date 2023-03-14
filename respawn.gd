@@ -1,4 +1,4 @@
-extends StaticBody2D
+extends Area2D
 
 
 # Declare member variables here. Examples:
@@ -9,9 +9,13 @@ extends StaticBody2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
-func _process(delta):
-	rotation_degrees+=-0.5
+
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+
+func _on_Area2D_body_entered(body):
+	var p = get_node("/root/Joc/Personatge")
+	p.position = Vector2(490,272)

@@ -6,7 +6,7 @@ var gravetat := Vector2.DOWN * 5000
 var salt := Vector2.UP * 1500
 
 func _ready():
-	position = Vector2(500,300)
+	position = Vector2(2258,687)
 	
 func _process(delta):
 	moviment += gravetat * delta

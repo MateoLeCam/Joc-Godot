@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://fletxa cap abaix.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Paret.tscn" type="PackedScene" id=2]
@@ -6,6 +6,12 @@
 [ext_resource path="res://paretrotatòria.tscn" type="PackedScene" id=4]
 [ext_resource path="res://escalainvisible.tscn" type="PackedScene" id=5]
 [ext_resource path="res://RESPAWN.tscn" type="PackedScene" id=6]
+[ext_resource path="res://detectorparetinvisible.tscn" type="PackedScene" id=7]
+[ext_resource path="res://detectorparetinvisible2.gd" type="Script" id=8]
+[ext_resource path="res://detectorparetinvisible6.gd" type="Script" id=9]
+[ext_resource path="res://detectorparetinvisible5.gd" type="Script" id=10]
+[ext_resource path="res://detectorparetinvisible4.gd" type="Script" id=11]
+[ext_resource path="res://detectorparetinvisible3.gd" type="Script" id=12]
 
 [node name="Joc" type="Node2D"]
 position = Vector2( 6, 19 )
@@ -18,7 +24,7 @@ position = Vector2( 5552, 715 )
 scale = Vector2( 6, 4 )
 
 [node name="Area2D" parent="." instance=ExtResource( 6 )]
-position = Vector2( 3149, 3842 )
+position = Vector2( 3090, 3710 )
 scale = Vector2( 8, 1 )
 
 [node name="Paret" parent="." instance=ExtResource( 2 )]
@@ -129,8 +135,18 @@ position = Vector2( 2588, 2271 )
 rotation = 2.61799
 scale = Vector2( 2, 1 )
 
+[node name="Paret28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1337, 1014 )
+rotation = 2.61799
+scale = Vector2( 2, 1 )
+
 [node name="Paret12" parent="." instance=ExtResource( 2 )]
 position = Vector2( 4874, 2667 )
+rotation = 0.523599
+scale = Vector2( 2, 1 )
+
+[node name="Paret29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 658, 1003 )
 rotation = 0.523599
 scale = Vector2( 2, 1 )
 
@@ -142,20 +158,55 @@ scale = Vector2( 0.1025, 0.150312 )
 position = Vector2( 4750, 1971 )
 scale = Vector2( 0.111718, 0.160312 )
 
-[node name="CollisionShape2D" parent="." instance=ExtResource( 5 )]
+[node name="escalainvisible" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3900, 747 )
+scale = Vector2( 1.5, 1.5 )
 
-[node name="CollisionShape2D2" parent="." instance=ExtResource( 5 )]
+[node name="escalainvisible2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3739, 700 )
+scale = Vector2( 1.5, 1.5 )
 
-[node name="CollisionShape2D3" parent="." instance=ExtResource( 5 )]
+[node name="escalainvisible3" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3580, 644 )
+scale = Vector2( 1.5, 1.5 )
 
-[node name="CollisionShape2D4" parent="." instance=ExtResource( 5 )]
-position = Vector2( 3399, 593 )
+[node name="escalainvisible4" parent="." instance=ExtResource( 5 )]
+position = Vector2( 3401, 595 )
+scale = Vector2( 1.5, 1.5 )
 
-[node name="CollisionShape2D5" parent="." instance=ExtResource( 5 )]
+[node name="escalainvisible5" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3220, 560 )
+scale = Vector2( 1.5, 1.5 )
 
-[node name="CollisionShape2D6" parent="." instance=ExtResource( 5 )]
+[node name="escalainvisible6" parent="." instance=ExtResource( 5 )]
 position = Vector2( 3047, 527 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="Detector" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3899, 707 )
+scale = Vector2( 5, 0.25 )
+
+[node name="Detector6" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3046, 487 )
+scale = Vector2( 5, 0.25 )
+script = ExtResource( 9 )
+
+[node name="Detector5" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3221, 521 )
+scale = Vector2( 5, 0.25 )
+script = ExtResource( 10 )
+
+[node name="Detector4" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3402, 556 )
+scale = Vector2( 5, 0.25 )
+script = ExtResource( 11 )
+
+[node name="Detector3" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3580, 606 )
+scale = Vector2( 5, 0.25 )
+script = ExtResource( 12 )
+
+[node name="Detector2" parent="." instance=ExtResource( 7 )]
+position = Vector2( 3740, 661 )
+scale = Vector2( 5, 0.25 )
+script = ExtResource( 8 )

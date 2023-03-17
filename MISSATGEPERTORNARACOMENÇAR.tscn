@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="Label" type="Label"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -102.0
+margin_top = -24.0
+margin_right = 102.0
+margin_bottom = 41.0
+text = "SI VOLS TORNAR A COMENÇAR, 
+TOCA LA LÍNIA VERMELLA 
+QUE ESTÀ A SOTA
+"
+align = 1
+percent_visible = -0.0188679

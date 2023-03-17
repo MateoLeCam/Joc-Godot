@@ -9,9 +9,5 @@ margin_left = -102.0
 margin_top = -24.0
 margin_right = 102.0
 margin_bottom = 41.0
-text = "SI VOLS TORNAR A COMENÇAR, 
-TOCA LA LÍNIA VERMELLA 
-QUE ESTÀ A SOTA
-"
+text = "!!!START!!!"
 align = 1
-percent_visible = -0.0188679

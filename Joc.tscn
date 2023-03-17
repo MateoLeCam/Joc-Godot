@@ -427,7 +427,7 @@ scale = Vector2( 0.0347827, 0.0670439 )
 
 [node name="Sprite39" parent="." instance=ExtResource( 17 )]
 show_behind_parent = true
-position = Vector2( 2880, 8931 )
+position = Vector2( 3070, 8945 )
 scale = Vector2( -17.8944, 37.3978 )
 
 [node name="Bush" type="Sprite" parent="."]

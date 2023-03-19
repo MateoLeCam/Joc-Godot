@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://fletxa cap abaix.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Paret.tscn" type="PackedScene" id=2]
@@ -18,6 +18,7 @@
 [ext_resource path="res://TUBO.tscn" type="PackedScene" id=16]
 [ext_resource path="res://SKY.tscn" type="PackedScene" id=17]
 [ext_resource path="res://BUSH.png" type="Texture" id=18]
+[ext_resource path="res://58f8bcf70ed2bdaf7c128307.png" type="Texture" id=19]
 
 [node name="Joc" type="Node2D"]
 
@@ -421,8 +422,14 @@ scale = Vector2( 0.0347827, 0.0670439 )
 
 [node name="Sprite39" parent="." instance=ExtResource( 17 )]
 show_behind_parent = true
-position = Vector2( 2490, 9219 )
+position = Vector2( 2683, 9243 )
 scale = Vector2( -17.8944, 37.3978 )
+
+[node name="58F8Bcf70Ed2Bdaf7C128307" type="Sprite" parent="Sprite39"]
+position = Vector2( -68.7388, -234.48 )
+rotation = 4.71239
+scale = Vector2( 0.00270382, 0.00756904 )
+texture = ExtResource( 19 )
 
 [node name="Bush" type="Sprite" parent="."]
 show_behind_parent = true

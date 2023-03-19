@@ -16,5 +16,5 @@ margin_right = 149.0
 margin_bottom = 16.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -5, -0.5 )
+position = Vector2( -4, 1 )
 shape = SubResource( 1 )
